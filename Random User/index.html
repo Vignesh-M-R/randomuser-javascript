@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random User Generator</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1 class="heading">Random User Generator</h1>
+    <div class="container">
+      <div class="row max-height">
+        <div class="col-11 mx-auto person col-md-8 col-lg-6 my-3">
+          <div class="card">
+            <img
+              src="./person-img.jpg"
+              class="card-img-top"
+              alt=""
+              id="photo"
+            />
+            <div class="card-body">
+              <div class="person-info">
+                <p class="text-capitalize">
+                  <span class="mr-3 text-primary"
+                    ><i class="fa fa-user"></i></span
+                  >name :<span
+                    id="first"
+                    class="text-uppercase ml-2 badge badge-secondary single-info"
+                    >walter</span
+                  >
+                </p>
+
+                <p class="text-capitalize">
+                  <span class="mr-3 text-primary"
+                    ><i class="fa fa-user"></i></span
+                  >last name :<span
+                    id="last"
+                    class="text-uppercase ml-2 badge badge-secondary single-info"
+                    >white</span
+                  >
+                </p>
+
+                <p class="text-capitalize">
+                  <span class="mr-3 text-primary"
+                    ><i class="fa fa-map-marker"></i></span
+                  >location :<span
+                    id="street"
+                    class="text-uppercase ml-2 badge badge-secondary single-info"
+                    >skyler car wash</span
+                  >
+                </p>
+
+                <p class="text-capitalize">
+                  <span class="mr-3 text-primary"
+                    ><i class="fa fa-phone"></i></span
+                  >phone :<span
+                    id="phone"
+                    class="text-uppercase ml-2 badge badge-secondary single-info"
+                    >123-456-789</span
+                  >
+                </p>
+
+                <p class="text-capitalize">
+                  <span class="mr-3 text-primary"
+                    ><i class="fa fa-envelope"></i></span
+                  >email :<span
+                    id="email"
+                    class="text-uppercase ml-2 badge badge-secondary single-info"
+                    >heisenberg@ww.co</span
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="card-footer text-center">
+              <button
+                type="button"
+                id="btn"
+                class="btn btn-outline-info text-capitalize"
+              >
+                generate person
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p class="copyrights">Copyright &copy; Vignesh M R - 2020</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
